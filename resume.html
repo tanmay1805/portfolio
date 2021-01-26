@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/minimal_vector_art_5.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PORTFOLIO | TANMAY THAPLIYAL</title>
+</head>
+<style>
+  body{
+    height: 100vh;
+    background-image: url('img/11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:inherit;
+  }
+  
+</style>
+
+<body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="resume.html">Education & Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills & Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container mx-auto" style="margin-top: 10vh;">
+        <div class="accordion" id="accordionExample" style="background-color: white;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Educational Background
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><strong>SRM Institute Of Science And Technology, Chennai, India</strong></li>
+                  <ul style="list-style: none;">
+                    <li><em>Bachelor in Technology, Computer Science</em></li>
+                    <li>2017 - 2021</li>
+                    <li>CGPA - 9.00</li>
+                  </ul>
+                  <li><span class="fa-li"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><strong>GRM School, Bareilly, India</strong></li>
+                  <ul style="list-style: none;">
+                    <li><em>Senior Secondary Education</em></li>
+                    <li>2016 - 2017</li>
+                    <li>Percentage - 92.6%</li>
+                  </ul>
+                  <li><span class="fa-li"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><strong>GRM School, Bareilly, India</strong></li>
+                  <ul style="list-style: none;">
+                    <li><em>Higher Secondary Education</em></li>
+                    <li>2014 - 2015</li>
+                    <li>CGPA - 9.40</li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Projects
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">COVID – 19 Symptoms Predictor</h5>
+                        <p class="card-text">Made a ML model to predict if a person has COVID – 19 or not based on the symptoms the person gives. GUI for the model was also made using streamlit python module.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Handwritten Digit Recognizer with GUI</h5>
+                        <p class="card-text">Used MNIST dataset to make a handwritten digit recognizer. Used logistic regression to make the model having 91% accuracy. Used tkinter python module to make the GUI so that user could draw and the model could predict.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Voice Assistant</h5>
+                        <p class="card-text">Made a voice assistant using python speech recognition module to perform some basic tasks like opening some apps, wishing the user, finding information on Wikipedia etc.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Food Delivery System - Database Management with GUI</h5>
+                        <p class="card-text">Used MySQL to build a database management system for an online food delivery system. SQL queries were used to take care of the data from ordering of food to its delivery. GUI as made using tkinter python module.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Created a portfolio website using HTML, CSS, Javascript & Bootstrap. Used Github to then host the website online.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Smart Parking Management System</h5>
+                        <p class="card-text">Used the technologies like Computer Vision And Deep Learning to monitor parking spaces. The system continuously monitored parking spots for vacancy using OpenCV & M-RCNN and used yolov5 for extraction of license plates too.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+</body>
+
+</html>
